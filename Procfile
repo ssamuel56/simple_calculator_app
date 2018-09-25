@@ -1,1 +1,1 @@
-web: bundle exec ruby calculator_app.rb
+web: bundle exec ruby app.rb
