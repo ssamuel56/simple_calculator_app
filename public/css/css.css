@@ -1,0 +1,68 @@
+html{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: pink;
+}
+
+table {
+    margin: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    /*recommend 1920 / 1080 max based on usage stats, use 100% to that point*/
+    width: 80%
+    max-width: 900px;
+    height: 100%;
+    max-height: 600px;
+}
+
+form{
+  display: flex;
+}
+
+table{
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  background-color: purple;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.button:hover{
+  background: pink;
+  color: purple;
+  border: 2px purple solid;
+  padding: 13px;
+}
+
+#heading{
+  color: purple;
+  font-weight: bold;
+  font-size: 250%;
+  text-align: center;
+}
+
+#display{
+  margin: auto;
+  width: 98%;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border: medium purple dotted;
+}
